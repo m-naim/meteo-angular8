@@ -9,7 +9,7 @@ import { ApiService } from './api.service';
 export class AppComponent {
   title = 'meteoNg';
 
-  _google_api = 'AIzaSyD6E2iC5nSVNBy-tE5kMg1egUZHuL1gAHo';
+  _google_api = 'secret';
   public json: string;
   public dataCurrent: any = {
     name: '',
